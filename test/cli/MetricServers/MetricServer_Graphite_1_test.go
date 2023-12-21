@@ -3,8 +3,8 @@ package cli_metricservers_test
 import (
 	"testing"
 
-	_ "github.com/Telmate/proxmox-api-go/cli/command/commands"
-	cliTest "github.com/Telmate/proxmox-api-go/test/cli"
+	_ "github.com/Terraform-for-Proxmox/proxmox-api-go/cli/command/commands"
+	cliTest "github.com/Terraform-for-Proxmox/proxmox-api-go/test/cli"
 )
 
 func Test_MetricServer_Graphite_1_Cleanup(t *testing.T) {
