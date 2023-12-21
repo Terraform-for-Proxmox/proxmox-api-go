@@ -1,7 +1,7 @@
 package api_test
 
 import (
-	pxapi "github.com/Telmate/proxmox-api-go/proxmox"
+	pxapi "github.com/Terraform-for-Proxmox/proxmox-api-go/proxmox"
 )
 
 func _create_vmref() (ref *pxapi.VmRef) {

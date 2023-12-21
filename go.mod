@@ -1,10 +1,10 @@
-module github.com/Telmate/proxmox-api-go
+module github.com/Terraform-for-Proxmox/proxmox-api-go
 
 go 1.19
 
 require (
 	github.com/spf13/cobra v1.8.0
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 )
 
 require (
